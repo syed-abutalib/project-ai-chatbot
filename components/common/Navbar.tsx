@@ -20,18 +20,18 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
 
-  useEffect(() => {
-    // Check system preference for dark theme
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    setIsDarkTheme(mediaQuery.matches);
+  // useEffect(() => {
+  //   // Check system preference for dark theme
+  //   const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+  //   setIsDarkTheme(mediaQuery.matches);
 
-    const handleChange = (e: MediaQueryListEvent) => setIsDarkTheme(e.matches);
-    mediaQuery.addEventListener("change", handleChange);
+  //   const handleChange = (e: MediaQueryListEvent) => setIsDarkTheme(e.matches);
+  //   mediaQuery.addEventListener("change", handleChange);
 
-    return () => mediaQuery.removeEventListener("change", handleChange);
-  }, []);
+  //   return () => mediaQuery.removeEventListener("change", handleChange);
+  // }, []);
 
   useEffect(() => {
     const handleScroll = () => {
