@@ -174,7 +174,7 @@ const GetStartedBanner = () => {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="border-white/30 hover:bg-white/10 text-white px-8 py-6 text-base rounded-full transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
+                    className="border-white/30 hover:bg-white/50 text-black px-8 py-6 text-base rounded-full transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
                   >
                     Contact sales
                   </Button>
