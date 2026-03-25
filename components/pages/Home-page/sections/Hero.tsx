@@ -142,7 +142,7 @@ const Hero = () => {
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-slate-600 dark:text-slate-400 bg-slate-100 dark:bg-slate-900 rounded-full border border-slate-200 dark:border-slate-800"
+              className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-slate-400 bg-slate-900 rounded-full border border-slate-800"
             >
               <Sparkles className="w-3.5 h-3.5" />
               Introducing EduDev AI 3.5
@@ -152,7 +152,7 @@ const Hero = () => {
           {/* Heading */}
           <motion.h1
             variants={fadeUpVariants}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight text-slate-900 dark:text-white mb-6"
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight text-white mb-6"
           >
             Advanced AI for
             <br />
@@ -162,7 +162,7 @@ const Hero = () => {
           {/* Subheading */}
           <motion.p
             variants={fadeUpVariants}
-            className="text-base sm:text-lg text-slate-500 dark:text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed"
+            className="text-base sm:text-lg text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
             Our latest model delivers breakthrough capabilities in science,
             coding, and math—solving problems that were previously out of reach.
@@ -188,7 +188,7 @@ const Hero = () => {
                   onFocus={() => setIsFocused(true)}
                   onBlur={() => setIsFocused(false)}
                   placeholder={isFocused ? "Message OpenAI..." : displayText}
-                  className="w-full px-5 py-4 pb-16 bg-white dark:bg-zinc-950 border border-slate-200 dark:border-slate-800 rounded-2xl pr-14 focus:outline-none focus:border-slate-300 dark:focus:border-slate-700 transition-all duration-200 placeholder:text-slate-400 dark:placeholder:text-slate-600 text-slate-900 dark:text-white shadow-sm"
+                  className="w-full px-5 py-4 pb-16 bg-zinc-950 border border-slate-800 rounded-2xl pr-14 focus:outline-none focus:border-slate-700 transition-all duration-200 placeholder:text-slate-600 text-white shadow-sm"
                 />
 
                 <motion.button
@@ -201,8 +201,8 @@ const Hero = () => {
                                         p-2 rounded-xl transition-all duration-200
                                         ${
                                           prompt.trim()
-                                            ? "bg-slate-900 dark:bg-white text-white dark:text-slate-900 cursor-pointer shadow-sm"
-                                            : "bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-600 cursor-not-allowed"
+                                            ? "bg-white text-white dark:text-slate-900 cursor-pointer shadow-sm"
+                                            : "bg-slate-800 text-slate-600 cursor-not-allowed"
                                         }
                                     `}
                 >
@@ -222,7 +222,7 @@ const Hero = () => {
                   whileHover={{ y: -1 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleSuggestionClick(suggestion)}
-                  className="px-3 py-1.5 text-xs bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-full text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-all duration-200"
+                  className="px-3 py-1.5 text-xs bg-slate-900 border border-slate-800 rounded-full text-slate-400 hover:border-slate-700 hover:text-white transition-all duration-200"
                 >
                   {suggestion}
                 </motion.button>
@@ -264,7 +264,7 @@ const Hero = () => {
           <motion.div
             animate={{ y: [0, 6, 0] }}
             transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
-            className="w-1 h-1.5 bg-slate-400 dark:bg-slate-600 rounded-full mt-1.5"
+            className="w-1 h-1.5 bg-slate-600 rounded-full mt-1.5"
           />
         </div>
       </motion.div>
@@ -274,7 +274,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.4 }}
         transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-8 right-8 hidden lg:block text-xs text-slate-400 dark:text-slate-600"
+        className="absolute bottom-8 right-8 hidden lg:block text-xs text-slate-600"
       >
         <span className="border border-slate-200 dark:border-slate-800 rounded px-1.5 py-0.5">
           ⌘
