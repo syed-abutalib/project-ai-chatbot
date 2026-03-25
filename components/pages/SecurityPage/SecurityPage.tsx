@@ -227,7 +227,7 @@ const SecurityPage = () => {
               className={`rounded-full px-8 ${
                 activeTab === "security"
                   ? "bg-white text-black"
-                  : "text-white/60 hover:text-white"
+                  : "text-white/60 hover:text-black"
               }`}
             >
               Security Practices
@@ -443,7 +443,6 @@ const SecurityPage = () => {
               </Link>
               <Link href="/safety/approach">
                 <Button
-                  variant="outline"
                   className="border-white/20 text-black hover:bg-white/50 px-8 py-6 rounded-full"
                 >
                   View Safety Approach
