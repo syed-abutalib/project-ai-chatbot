@@ -164,11 +164,11 @@ html.lenis {
 }
 
 .scrollbar-thin::-webkit-scrollbar-track {
-  background: transparent;
+  background: #000 !important;
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: #fff !important;
   border-radius: 20px;
 }
 
@@ -190,10 +190,11 @@ html{
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
+  background: #000 !important;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #000 !important;
 }
 
 ::-webkit-scrollbar-thumb {
