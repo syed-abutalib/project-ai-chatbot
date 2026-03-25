@@ -443,7 +443,7 @@ const SecurityPage = () => {
               </Link>
               <Link href="/safety/approach">
                 <Button
-                  className="border-white/20 text-black hover:bg-white/50 px-8 py-6 rounded-full"
+                  className="border-white/20 text-white hover:bg-white/50 px-8 py-6 rounded-full"
                 >
                   View Safety Approach
                 </Button>
