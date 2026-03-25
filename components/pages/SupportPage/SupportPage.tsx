@@ -503,7 +503,7 @@ const SupportPage = () => {
               <a href="mailto:syedabutalib.dev@gmail.com" target="_blank">
                 <Button
                   variant="outline"
-                  className="border-white/20 text-white hover:bg-white/10 px-8 py-6 rounded-full"
+                  className="border-white/20 text-black hover:bg-white/50 px-8 py-6 rounded-full"
                 >
                   <Mail className="mr-2 w-4 h-4" />
                   Email support
