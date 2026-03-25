@@ -104,12 +104,12 @@ const Hero = () => {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white dark:bg-black"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black"
     >
       {/* Clean background with subtle gradient */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-black" />
-        <div className="absolute top-0 left-0 right-0 h-64 bg-gradient-to-b from-white to-transparent dark:from-black dark:to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950 to-black" />
+        <div className="absolute top-0 left-0 right-0 h-64 bg-gradient-to-b from-black to-transparent" />
       </div>
 
       {/* Subtle grid pattern - very faint */}
