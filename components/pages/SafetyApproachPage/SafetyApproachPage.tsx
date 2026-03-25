@@ -204,7 +204,7 @@ const SafetyApproachPage = () => {
               <Link href={`/support`}>
                 <Button
                   variant="outline"
-                  className="border-white/20 cursor-pointer text-white hover:bg-white/10 px-8 py-6 rounded-full"
+                  className="border-white/20 cursor-pointer text-black hover:bg-white/50 px-8 py-6 rounded-full"
                 >
                   Contact Support
                 </Button>
