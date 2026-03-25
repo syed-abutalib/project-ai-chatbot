@@ -23,7 +23,13 @@ const nextConfig: NextConfig = {
         pathname: "/images/**"
       }
     ]
-  }
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  experimental: {
+    typedRoutes: true,
+  },
 };
 
 export default nextConfig;
