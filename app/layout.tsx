@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     icon: [{ url: "/logo.png", type: "image/png" }],
     apple: [{ url: "/logo.png", sizes: "180x180", type: "image/png" }],
   },
+  verification: {
+    google: 'google-site-verification=QMXXenb-Ws7mQ7BKxpIcEuVJPok6YkD04odcY-Goai0',
+  },
   openGraph: {
     title: "EduDev AI Platform | Transform Your Workflow",
     description:
