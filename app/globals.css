@@ -158,7 +158,7 @@ html.lenis {
   pointer-events: none;
 }
 
-/* .scrollbar-thin::-webkit-scrollbar {
+.scrollbar-thin::-webkit-scrollbar {
   width: 6px;
 }
 
@@ -231,4 +231,4 @@ html{
 
 html.lenis.lenis-smooth {
   scroll-behavior: auto !important;
-} */
+}
