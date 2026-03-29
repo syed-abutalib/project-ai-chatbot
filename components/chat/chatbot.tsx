@@ -317,7 +317,7 @@ export default function ChatBot() {
       </motion.aside>
 
       {/* Main Chat Area */}
-      <div className="flex-1 flex flex-col lg:ml-[280px] transition-all duration-300 h-full overflow-y-scroll">
+      <div className="flex-1 flex flex-col lg:ml-[280px] transition-all duration-300 h-full overflow-hidden">
         {/* Header */}
         <motion.header
           initial={{ y: -20, opacity: 0 }}
@@ -374,7 +374,7 @@ export default function ChatBot() {
         </motion.header>
 
         {/* Messages Container */}
-        <div className="flex-1 overflow-y-auto min-h-0">
+        <div className="flex-1 overflow-y-scroll min-h-0">
           <div className="max-w-3xl mx-auto py-8 px-4">
             <AnimatePresence mode="wait">
               {/* Show welcome message only when messages array is empty */}
