@@ -158,8 +158,7 @@ html.lenis {
   pointer-events: none;
 }
 
-/* Custom scrollbar */
-.scrollbar-thin::-webkit-scrollbar {
+/* .scrollbar-thin::-webkit-scrollbar {
   width: 6px;
 }
 
@@ -176,7 +175,6 @@ html.lenis {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* For Firefox */
 .scrollbar-thin {
   scrollbar-width: thin;
   scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
@@ -186,7 +184,6 @@ html{
   scroll-behavior: smooth;
   
 }
-/* Better dark scrollbar (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -208,7 +205,6 @@ html{
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Hover effect (premium feel) */
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(
     180deg,
@@ -217,20 +213,15 @@ html{
   );
 }
 
-/* Active click feel */
 ::-webkit-scrollbar-thumb:active {
   background: rgba(255, 255, 255, 0.35);
 }
 
-/* Firefox support */
 * {
   scrollbar-width: thin;
   scrollbar-color: #000;
 }
 
-/* ============================= */
-/* ✨ GLASS OVERLAY EFFECT (optional) */
-/* ============================= */
 
 .scrollbar-glass::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.08);
@@ -238,7 +229,6 @@ html{
   border-radius: 999px;
 }
 
-/* Optional inertia-like feel */
 html.lenis.lenis-smooth {
   scroll-behavior: auto !important;
-}
+} */
