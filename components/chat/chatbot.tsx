@@ -317,7 +317,7 @@ export default function ChatBot() {
       </motion.aside>
 
       {/* Main Chat Area */}
-      <div className="flex-1 flex flex-col lg:ml-[280px] transition-all duration-300 h-full overflow-hidden">
+      <div className="flex-1 flex flex-col lg:ml-[280px] transition-all duration-300 h-full overflow-y-scroll">
         {/* Header */}
         <motion.header
           initial={{ y: -20, opacity: 0 }}
