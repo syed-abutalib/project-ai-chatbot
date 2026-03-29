@@ -295,7 +295,7 @@ export default function ChatBot() {
         variants={sidebarVariants}
         initial="mobileClosed"
         animate={isMobileSidebarOpen ? "mobileOpen" : "mobileClosed"}
-        className="fixed left-0 top-0 h-full w-[280px] bg-black/95 backdrop-blur-xl border-r border-white/10 z-50 lg:hidden overflow-y-auto"
+        className="fixed left-0 top-0 h-full w-[280px] bg-black/95 backdrop-blur-xl border-r border-white/10 z-50 lg:hidden overflow-y-scroll"
       >
         <SidebarContent
           chats={chats}
